@@ -32,7 +32,6 @@ const linkPost = async (req = request, res = response) => {
       information,
       dataId: url,
       expireAt,
-      timeResult,
     });
   } catch (err) {
     res.status(400).json({ err });
